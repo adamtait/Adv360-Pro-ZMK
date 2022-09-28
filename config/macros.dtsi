@@ -2,19 +2,19 @@ macro_browser_tab_las: macro_browser_tab_las{
 compatible = "zmk,behavior-macro";
 label = "macro_browser_tab_las";
 #binding-cells = <0>;
-bindings = ;
+bindings = <&kp LGUI>, <&kp LSHIFT>, <&kp KP_LEFT_PARENTHESIS>;
 };
 macro_browser_tab_nex: macro_browser_tab_nex{
 compatible = "zmk,behavior-macro";
 label = "macro_browser_tab_nex";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LSHFT>, <&kp KP_LEFT_PARENTHESIS>;
+bindings = <&kp LGUI>, <&kp LSHFT>, <&kp KP_RIGHT_PARENTHESIS>;
 };
 macro_browser_back: macro_browser_back{
 compatible = "zmk,behavior-macro";
 label = "macro_browser_back";
 #binding-cells = <0>;
-bindings = ;
+bindings = <&kp LGUI>, <&kp LEFT>;
 };
 macro_browser_forward: macro_browser_forward{
 compatible = "zmk,behavior-macro";
