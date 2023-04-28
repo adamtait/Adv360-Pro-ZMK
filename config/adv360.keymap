@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-  &kp EQUAL            &kp N1     &kp N2    &kp N3   &kp N4  &kp N5                            &tog 1                                                                                      &mo 3  &kp N6  &kp N7    &kp N8            &kp N9             &kp N0     &kp ESC
-    &kp TAB  &kp SINGLE_QUOTE  &kp COMMA   &kp DOT    &kp P   &kp Y               &macro_browser_back                                                                     &macro_browser_forward   &kp F   &kp G     &kp C             &kp R              &kp L   &kp SLASH
-  &kp MINUS             &kp A      &kp O     &kp E    &kp U   &kp I            &macro_browser_tab_las  &kp LCTRL  &kp LGUI  &kp RCTRL  &kp RALT  &kp RCTRL      &kp RALT  &macro_browser_tab_nex   &kp D   &kp H     &kp T             &kp N              &kp S    &kp BSLH
- &kp LSHIFT          &kp SEMI      &kp Q     &kp J    &kp K   &kp X                          &kp HOME      &none  &kp HOME  &kp PG_UP     &none  &kp PG_UP         &kp B                   &kp M   &kp W   &kp V     &kp Z         &kp RSHFT              &kp Z  &kp RSHIFT
-    &kp ESC          &kp LEFT  &kp RIGHT  &kp BSPC  &kp DEL                                  &kp BSPC    &kp DEL   &kp END                       &kp PG_DN  &kp KP_ENTER               &kp SPACE          &kp UP  &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &mo 2
+  &kp EQUAL            &kp N1     &kp N2          &kp N3           &kp N4  &kp N5                            &tog 1                                                                                      &mo 3  &kp N6  &kp N7    &kp N8            &kp N9             &kp N0     &kp ESC
+    &kp TAB  &kp SINGLE_QUOTE  &kp COMMA         &kp DOT            &kp P   &kp Y               &macro_browser_back                                                                     &macro_browser_forward   &kp F   &kp G     &kp C             &kp R              &kp L   &kp SLASH
+  &kp MINUS             &kp A      &kp O           &kp E            &kp U   &kp I            &macro_browser_tab_las  &kp LCTRL  &kp LGUI  &kp RCTRL  &kp RALT  &kp RCTRL      &kp RALT  &macro_browser_tab_nex   &kp D   &kp H     &kp T             &kp N              &kp S    &kp BSLH
+ &kp LSHIFT          &kp SEMI      &kp Q           &kp J            &kp K   &kp X                          &kp HOME      &none  &kp HOME  &kp PG_UP     &none  &kp PG_UP         &kp B                   &kp M   &kp B   &kp M     &kp W             &kp V              &kp Z  &kp RSHIFT
+    &kp ESC         &kp GRAVE    &kp ESC  &kp LEFT_ARROW  &kp RIGHT_ARROW                                  &kp BSPC    &kp DEL   &kp END                       &kp PG_DN  &kp KP_ENTER               &kp SPACE          &kp UP  &kp DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &mo 2
             >;
         };
 
